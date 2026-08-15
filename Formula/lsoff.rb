@@ -1,28 +1,28 @@
 class Lsoff < Formula
   desc "CLI/TUI for listing listening TCP/UDP ports"
   homepage "https://github.com/yutat23/lsoff"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/yutat23/lsoff/releases/download/v0.1.2/lsoff-darwin-arm64"
-      sha256 "eb35ab6adde95662639a9d0abbb9a98714449921c41a62882ce9e30d8c9c905e"
+      url "https://github.com/yutat23/lsoff/releases/download/v0.1.3/lsoff-darwin-arm64"
+      sha256 "48a12de5994d0cbd1a26829db4821c20a35444b8c3269b073250d84ce466d49c"
     end
     on_intel do
-      url "https://github.com/yutat23/lsoff/releases/download/v0.1.2/lsoff-darwin-amd64"
-      sha256 "023eb564282544353c6629b2b20cf30a50b39487f7c4ba47afe88908791f11c6"
+      url "https://github.com/yutat23/lsoff/releases/download/v0.1.3/lsoff-darwin-amd64"
+      sha256 "6fab07670d3c27789ff78ce950bb53f86a2ddd3f06a2314f424e1fbf0120ba2b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/yutat23/lsoff/releases/download/v0.1.2/lsoff-linux-arm64"
-      sha256 "9b601a0e8504dd88e16dc20e060ff588c21fbec8e46c5f23c5e4c627b39180e2"
+      url "https://github.com/yutat23/lsoff/releases/download/v0.1.3/lsoff-linux-arm64"
+      sha256 "9f502f77375e2e021e09e216ad8a964e913fe38982f2b105aae65a8d46fd5b8e"
     end
     on_intel do
-      url "https://github.com/yutat23/lsoff/releases/download/v0.1.2/lsoff-linux-amd64"
-      sha256 "fe26256344c723262c9652b3f3ab5e99ae4e837135f4a92e24440ad7b713756b"
+      url "https://github.com/yutat23/lsoff/releases/download/v0.1.3/lsoff-linux-amd64"
+      sha256 "9bb5fa64a59ee05243728931796e059b9e0bcaecf1c3059ee884f6e98ca54857"
     end
   end
 
