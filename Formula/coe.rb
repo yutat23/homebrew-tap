@@ -2,6 +2,7 @@ class Coe < Formula
   desc "TCP socket tool for interactive server/client testing"
   homepage "https://github.com/yutat23/coe"
   version "0.1.10"
+  license "MIT"
 
   on_macos do
     on_arm do
